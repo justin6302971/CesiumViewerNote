@@ -1,5 +1,5 @@
 # Cesium Viewer Note
-***
+
     var viewer = new Cesium.Viewer('cesiumContainer', {
         infoBox: true,
         selectionIndicator: true,
@@ -9,7 +9,7 @@
         timeline: false,
         animation: false
     });
-
+***
 	// disable the default event handlers
 	viewer.scene.screenSpaceCameraController.enableTranslate = false; //only applies in 2D and Columbus view modes.
 	viewer.scene.screenSpaceCameraController.enableRotate = false;
