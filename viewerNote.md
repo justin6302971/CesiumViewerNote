@@ -18,6 +18,3 @@
 	viewer.scene.screenSpaceCameraController.enableTilt = false;
 	viewer.scene.screenSpaceCameraController.enableLook = false;
 
-## set cesium viewer port
-	var center = Cesium.Cartesian3.fromDegrees(120.647864, 24.179162);
-    viewer.camera.lookAt(center, new Cesium.Cartesian3(0.0, 0.0, 4200.0));
